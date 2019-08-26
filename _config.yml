@@ -22,7 +22,7 @@ theme_settings:
   header_text: Blog posts
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    Powered by <a href="https://jekyllrb.com/" rel="nofollow">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" rel="nofollow">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
