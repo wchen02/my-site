@@ -6,9 +6,15 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Wensheng Chen has over 8 years of experience in software development working on microservice and multi-tier client-server architecture applications. He is comfortable working independently with minimum supervision, as well as a team player; Wensheng has excellent design, implementation, testing, profiling, and debugging skills.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Technical Skills:
+- Language: Modern JavaScript w/ arrow function & async await, TypeScript, SASS/CSS3, PHP7, Java, Swift, Python
+- Framework: Vue.js, Express.js, Twitter Bootstrap, Wordpress, Laravel, Zend Framework, Magento
+- Knowledge: Web Development, REST API, Responsive Web Design, System Design, Web Performance, SEO
+- OS: MacOS, Linux/Unix, Windows
+- Cloud: Heroku, AWS (EC2/RDS/S3/ELB/CloudFront/Lambda/SES/CloudWatch/Glacier)
+- Version Control: Git, Subversion
+- Tools: Jenkins, Node.js, NPM, Redis, MemCached, Apache, Nginx, Composer, Docker, WHM/cPanel
+- Database: PostgreSQL, MySQL
+- Methodology: Agile, Scrum 
