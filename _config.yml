@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://wenshengchen.com"
-title: Wensheng's Personal Site # site's title
+title: Wensheng's Blog # site's title
 description: "Wensheng's software engineering blog" # used by search engines
 
 defaults:
