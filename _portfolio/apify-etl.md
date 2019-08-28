@@ -12,4 +12,4 @@ Apify-etl is a collection of git repositories to provide [ETL](https://github.co
 - [Normalizer](https://github.com/wchen02/normalizer) repo to transform the data.
 - [Loader](https://github.com/wchen02/loader) to insert the transformed data into the a relational database.
 
-I have also included a [CLI](https://github.com/wchen02/apify-etl-cli) ultility and a [server](https://github.com/wchen02/apify-etl-server) to process webhook events from apify server.
+I have also included a [CLI](https://github.com/wchen02/apify-etl-cli) utility and a [server](https://github.com/wchen02/apify-etl-server) to process webhook events from apify server.
