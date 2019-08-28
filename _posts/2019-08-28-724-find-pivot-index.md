@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 724. Find Pivot Index
-tags: [Python, Leetcode, Easy, Array]
+tags: [Python, LeetCode, Easy, Array]
 author-id: wchen02
 excerpt_separator: <!--more-->
 ---
