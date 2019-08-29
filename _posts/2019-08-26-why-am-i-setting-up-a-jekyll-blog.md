@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why am I setting up a Jekyll blog?
-tags: [Jekyll, Leetcode]
+tags: [Jekyll, LeetCode]
 author-id: wchen02
 ---
 
