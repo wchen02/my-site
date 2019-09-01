@@ -24,6 +24,9 @@ theme_settings:
   footer_text: >
     Powered by <a href="https://jekyllrb.com/" rel="nofollow">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" rel="nofollow">Type on Strap</a>
 
+  # Blog
+  excerpt: true # Or "truncate" (first 250 characters), "false" to disable
+
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
   email_address: # Full email address, e.g. "sam@example.com"
@@ -41,6 +44,7 @@ theme_settings:
   pinterest:
   reddit:
   soundcloud:
+  stack_overflow:
   stack_exchange:  # Full URL
   steam:
   tumblr:
