@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://wenshengchen.com"
 title: Wensheng's Blog # site's title
-description: "Wensheng's software engineering blog" # used by search engines
+description: "A software engineering blog" # used by search engines
 
 defaults:
   - 
@@ -63,7 +63,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: UA-628587-5 # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: wenshengchen
   katex: true # Enable if using math markup
 
   # Localization strings
