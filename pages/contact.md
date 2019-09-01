@@ -15,7 +15,7 @@ bootstrap: true
     }
 </style>
 
-<form name="contact" class="contact-form needs-validation" novalidate netlify>
+<form name="contact" class="contact-form needs-validation" novalidate netlify netlify-honeypot="bot-field">
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
