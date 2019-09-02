@@ -44,7 +44,7 @@ bootstrap: true
             Please enter a message
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
     <p class="invisible">
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
     </p>
