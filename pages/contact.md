@@ -6,9 +6,6 @@ bootstrap: true
 ---
 
 <style>
-    .bootstrap-iso .form-control {
-        height: calc(1.5em + .75rem + 2px);
-    }
     .contact-form {
         max-width: 768px;
         margin: auto;
