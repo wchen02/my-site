@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 145. Binary Tree Postorder Traversal
-tags: [Python, LeetCode, Hard, Stack, Tree]
+title: 144. Binary Tree Preorder Traversal
+tags: [Python, LeetCode, Medium, Stack, Tree]
 author-id: wchen02
 excerpt_separator: <!--more-->
 ---
 
-Given a binary tree, return the *postorder* traversal of its nodes' values.
+Given a binary tree, return the *preorder* traversal of its nodes' values.
 <!--more-->
 
 **Example**:
@@ -21,7 +21,7 @@ Given a binary tree, return the *postorder* traversal of its nodes' values.
 > </pre>
 >
 > **Output**: 
-> [3, 2, 1]
+> [1, 2, 3]
 
 **Follow up**: Recursive solution is trivial, could you do it iteratively?
 
@@ -36,17 +36,17 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def postorderTraversal(self, root: TreeNode) -> List[int]:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
         list = []
         stack = []
-
+        
         while root or stack:
             while root:
+                list.append(root.val)
                 stack.append(root)
-                list.insert(0, root.val)
-                root = root.right
+                root = root.left
             root = stack.pop()
-            root = root.left
+            root = root.right
 
         return list
 ```
@@ -64,12 +64,12 @@ node7 = TreeNode(7)
 node8 = TreeNode(8)
 node9 = TreeNode(9)
 
-answer = test.postorderTraversal(None)
+answer = test.preorderTraversal(None)
 assert answer == []
 node1.right = node2
 node2.left = node3
-answer = test.postorderTraversal(node1)
-assert answer == [3,2,1]
+answer = test.preorderTraversal(node1)
+assert answer == [1,2,3]
 
 node1.left = node2
 node1.right = node3
@@ -79,8 +79,8 @@ node5.left = node8
 node3.left = node6
 node3.right = node7
 node6.right = node9
-answer = test.postorderTraversal(node1)
-assert answer == [4,8,5,2,9,6,7,3,1]
+answer = test.preorderTraversal(node1)
+assert answer == [1,2,4,5,8,3,6,9,7]
 print('All Passed!')
 ```
 
