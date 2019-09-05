@@ -2,3 +2,9 @@
 ---
 
 @import "type-on-strap";
+@media screen and (max-width: 768px) {
+    .site-header nav ul li {
+        text-align: center;
+        font-size: 2em;
+    }
+}
