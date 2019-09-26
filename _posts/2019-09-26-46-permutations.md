@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Given a collection of **distinct** integers, return all possible permutations.
 <!--more-->
+
 **Example**:
 > **Input**: 
 > [1, 2, 3]
