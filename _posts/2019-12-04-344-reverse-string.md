@@ -1,21 +1,27 @@
 ---
 layout: post
-title: 206. Reverse Linked List
+title: 344. Reverse String
 tags: [Python, LeetCode, Easy, Linked List]
 author-id: wchen02
 excerpt_separator: <!--more-->
 ---
-Reverse a singly linked list.
+Write a function that reverses a string. The input string is given as an array of characters `char[]`.
+
+Do not allocate extra space for another array, you must do this by **modifying the input array** *in-place* with O(1) extra memory.
+
+You may assume all the characters consist of printable ascii characters.
+
 
 <!--more-->
-**Example**:
-> **Input**: 1->2->3->4->5->NULL
+**Example 1**:
+> **Input**: ["h","e","l","l","o"]
 >
-> **Output**: 5->4->3->2->1->NULL
+> **Output**: ["o","l","l","e","h"]
 
-**Follow up**:
-
-A linked list can be reversed either iteratively or recursively. Could you implement both?
+**Example 1**:
+> **Input**: ["H","a","n","n","a","h"]
+>
+> **Output**: ["h","a","n","n","a","H"]
 
 ## Solution
 ```python
