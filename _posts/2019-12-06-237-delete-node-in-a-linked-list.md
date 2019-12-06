@@ -9,6 +9,7 @@ Write a function to delete a node (except the tail) in a singly linked list, giv
 
 Given linked list -- head = [4,5,1,9], which looks like following:
 
+![Delete Node in a Linked List]({{ "/assets/img/posts/237_example.png" | relative_url}})
 <!--more-->
 **Example 1**:
 > **Input**: head = [4,5,1,9], node = 5
