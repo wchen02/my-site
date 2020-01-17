@@ -20,6 +20,7 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 If you have figured out the O(*n*) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 ## Solution
+
 ```python
 import sys
 from typing import List
@@ -37,6 +38,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
@@ -49,6 +51,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N)

@@ -13,7 +13,7 @@ The maximum depth is the number of nodes along the longest path from the root no
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > `[3, 9, 20, null, null, 15, 7]`,
 > <pre>
 >     3
@@ -22,10 +22,11 @@ The maximum depth is the number of nodes along the longest path from the root no
 >     /  \
 >    15   7
 > </pre>
-> 
+>
 > **Output**: 3
 
 ## Solution
+
 ```python
 class TreeNode:
     def __init__(self, x):
@@ -41,6 +42,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 node1 = TreeNode(1)
@@ -74,6 +76,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

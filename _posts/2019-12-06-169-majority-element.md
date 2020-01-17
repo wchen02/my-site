@@ -21,6 +21,7 @@ You may assume that the array is non-empty and the majority element always exist
 > **Output**: 2
 
 ## Solution
+
 ```python
 from typing import List, Dict
 
@@ -29,7 +30,7 @@ class Solution:
         numFreqMap = {}
         maxNum = 0
         maxCount = 0
-        
+
         for i in range(len(nums)):
             if not numFreqMap.get(nums[i]):
                 numFreqMap[nums[i]] = 1
@@ -45,6 +46,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.majorityElement([0,1,0,0,3])
@@ -59,6 +61,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

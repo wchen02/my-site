@@ -18,6 +18,7 @@ Reverse a singly linked list.
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 ## Solution
+
 ```python
 class ListNode:
     def __init__(self, x):
@@ -38,11 +39,12 @@ class Solution:
             newHead.next = oldHead
             oldHead = newHead
             newHead = newHead2
-        
+
         return oldHead
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 testHead = ListNode(1)
@@ -59,6 +61,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N)

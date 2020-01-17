@@ -15,27 +15,28 @@ Given the following binary tree:  root = [3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]
 ![Binary Tree]({{ "/assets/img/posts/binarytree.png" | relative_url}})
 
 **Example 1**:
-> **Input**: 
+> **Input**:
 > root = `[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]`, p = 5, q = 1
-> 
+>
 > **Output**: 3
 >
 > **Explanation**: The LCA of nodes 5 and 1 is 3.
 
 **Example 2**:
-> **Input**: 
+> **Input**:
 > root = `[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]`, p = 5, q = 4
-> 
+>
 > **Output**: 5
 >
 > **Explanation**: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.
 
+**Note**:
 
-**Note**: 
 - All of the nodes' values will be unique.
 - p and q are different and both values will exist in the binary tree.
 
 ## Solution
+
 ```python
 from Util.binaryTree import TreeNode
 from typing import Dict
@@ -51,7 +52,7 @@ class Solution:
 
         nodeParent = { root.val: root }
         nodeStack = [root]
-        
+
         while nodeStack:
             walker = nodeStack.pop()
             if walker.left:
@@ -60,7 +61,7 @@ class Solution:
             if walker.right:
                 nodeParent[walker.right.val] = walker
                 nodeStack.append(walker.right)
-        
+
         ancestorDict = { root.val: root }
         while p != root:
             ancestorDict[p.val] = nodeParent.get(p.val)
@@ -68,11 +69,12 @@ class Solution:
 
         while not ancestorDict.get(q.val):
             q = nodeParent.get(q.val)
-        
+
         return q
 ```
 
 ## Test Cases
+
 ```python
 from Util.binaryTree import TreeNode, Codec
 test = Solution()
@@ -105,6 +107,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

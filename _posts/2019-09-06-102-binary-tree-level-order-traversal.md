@@ -10,7 +10,7 @@ Given a binary tree, return the *level order* traversal of its nodes' values. (i
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > `[3, 9, 20, null, null, 15, 7]`,
 > <pre>
 >     3
@@ -19,8 +19,8 @@ Given a binary tree, return the *level order* traversal of its nodes' values. (i
 >     /  \
 >    15   7
 > </pre>
-> 
-> **Output**: 
+>
+> **Output**:
 > <pre>
 > [
 >   [3],
@@ -30,6 +30,7 @@ Given a binary tree, return the *level order* traversal of its nodes' values. (i
 > </pre>
 
 ## Solution
+
 ```python
 from typing import List
 from collections import deque
@@ -64,6 +65,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 node1 = TreeNode(1)
@@ -97,6 +99,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

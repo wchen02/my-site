@@ -13,7 +13,6 @@ Your algorithm's runtime complexity must be in the order of O(log *n*).
 
 If the target is not found in the array, return `[-1, -1]`.
 
-
 **Example 1**:
 > **Input**: nums = [5,7,7,8,8,10], target = 8
 >

@@ -10,7 +10,7 @@ Given a binary tree, return the *inorder* traversal of its nodes' values.
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > [1, null, 2, 3]
 > <pre>
 > 1
@@ -20,12 +20,13 @@ Given a binary tree, return the *inorder* traversal of its nodes' values.
 > 3
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > [1, 3, 2]
 
 **Follow up**: Recursive solution is trivial, could you do it iteratively?
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -39,7 +40,7 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         list = []
         stack = []
-        
+
         while root or stack:
             while root:
                 stack.append(root)
@@ -52,6 +53,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 node1 = TreeNode(1)
@@ -85,6 +87,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

@@ -12,12 +12,11 @@ Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
-
 **Example**:
-> **Input**: 
+> **Input**:
 > 5
 >
-> **Output**: 
+> **Output**:
 > <pre>
 > [
 >       [ 1 ],
@@ -29,6 +28,7 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 > </pre>
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -46,6 +46,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.generate(0)
@@ -60,6 +61,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N<sup>2</sup>)

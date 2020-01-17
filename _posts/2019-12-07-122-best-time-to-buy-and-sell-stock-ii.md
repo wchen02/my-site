@@ -35,6 +35,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 > **Explanation**: In this case, no transaction is done, i.e. max profit = 0.
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -50,6 +51,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.maxProfit([7,1,5,3,6,4])
@@ -61,6 +63,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N)

@@ -12,17 +12,17 @@ Return the index of the first occurrence of needle in haystack, or **-1** if nee
 <!--more-->
 
 **Example 1**:
-> **Input**: 
+> **Input**:
 > haystack = "hello", needle = "ll"
 >
-> **Output**: 
+> **Output**:
 > 2
 
 **Example 2**:
-> **Input**: 
+> **Input**:
 > haystack = "aaaaa", needle = "bba"
 >
-> **Output**: 
+> **Output**:
 > -1
 
 **Clarification**:
@@ -32,6 +32,7 @@ What should we return when `needle` is an empty string? This is a great question
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
 
 ## Solution
+
 ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
@@ -65,6 +66,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.strStr("hello", "ll")
@@ -91,10 +93,12 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
-**Time Complexity**: 
+**Time Complexity**:
 N = length of haystack
 M = length of needle
+
 - Average O(N)
 - Worst O(MN)

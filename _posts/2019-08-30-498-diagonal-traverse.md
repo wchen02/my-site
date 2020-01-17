@@ -10,7 +10,7 @@ Given a matrix of M x N elements (M rows, N columns), return all elements of the
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > <pre>
 > [
 >   [ 1, 2, 3 ],
@@ -19,10 +19,10 @@ Given a matrix of M x N elements (M rows, N columns), return all elements of the
 > ]
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > [1, 2, 4, 7, 5, 3, 6, 8, 9]
 >
-> **Explanation**: 
+> **Explanation**:
 ![Diagonal Traverse]({{ "/assets/img/posts/diagonal_traverse.png" | relative_url}})
 
 **Note**:
@@ -30,6 +30,7 @@ Given a matrix of M x N elements (M rows, N columns), return all elements of the
 The total number of elements of the given matrix will not exceed 10,000.
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -39,7 +40,7 @@ class Solution:
             return []
 
         result = []
-        
+
         # Row and Col Directions
         directions = [
             [-1, 1],
@@ -80,6 +81,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.findDiagonalOrder([])
@@ -117,6 +119,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
-**Time Complexity**: O(MN) where M = number of row and N = number of columns 
+**Time Complexity**: O(MN) where M = number of row and N = number of columns

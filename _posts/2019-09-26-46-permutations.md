@@ -9,10 +9,10 @@ Given a collection of **distinct** integers, return all possible permutations.
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > [1, 2, 3]
-> 
-> **Output**: 
+>
+> **Output**:
 > <pre>
 > [
 >   [1,2,3],
@@ -25,6 +25,7 @@ Given a collection of **distinct** integers, return all possible permutations.
 > </pre>
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -50,6 +51,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.permute([1,2,3])
@@ -101,6 +103,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N!)
 
 **Time Complexity**: O(N!)

@@ -10,7 +10,7 @@ Given a matrix of *m* x *n* elements (*m* rows, *n* columns), return all element
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > <pre>
 > [
 >   [ 1, 2, 3 ],
@@ -19,11 +19,11 @@ Given a matrix of *m* x *n* elements (*m* rows, *n* columns), return all element
 > ]
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 **Example 2**:
-> **Input**: 
+> **Input**:
 > <pre>
 > [
 >   [ 1, 2, 3, 4 ],
@@ -32,10 +32,11 @@ Given a matrix of *m* x *n* elements (*m* rows, *n* columns), return all element
 > ]
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -77,6 +78,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.spiralOrder([])
@@ -117,6 +119,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
-**Time Complexity**: O(MN) where M = number of row and N = number of columns 
+**Time Complexity**: O(MN) where M = number of row and N = number of columns

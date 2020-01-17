@@ -10,7 +10,7 @@ Given a 2d grid map of '`1`'s (land) and '`0`'s (water), count the number of isl
 <!--more-->
 
 **Example 1**:
-> **Input**: 
+> **Input**:
 > <pre>
 > 11110
 > 11010
@@ -18,11 +18,11 @@ Given a 2d grid map of '`1`'s (land) and '`0`'s (water), count the number of isl
 > 00000
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > 1
 
 **Example 2**:
-> **Input**: 
+> **Input**:
 > <pre>
 > 11000
 > 11000
@@ -30,10 +30,11 @@ Given a 2d grid map of '`1`'s (land) and '`0`'s (water), count the number of isl
 > 00011
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > 3
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -66,6 +67,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.numIslands([
@@ -88,6 +90,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N), N = number of cells

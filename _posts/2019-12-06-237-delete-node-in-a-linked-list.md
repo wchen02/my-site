@@ -19,7 +19,6 @@ Given linked list -- head = [4,5,1,9], which looks like following:
 >
 > **Explanation**: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
 
-
 **Example 2**:
 > **Input**: head = [4,5,1,9], node = 1
 >
@@ -35,6 +34,7 @@ Given linked list -- head = [4,5,1,9], which looks like following:
 - Do not return anything from your function.
 
 ## Solution
+
 ```python
 class ListNode:
     def __init__(self, x):
@@ -42,13 +42,14 @@ class ListNode:
         self.next = None
 
 class Solution:
-    def deleteNode(self, node: ListNode) -> None: 
+    def deleteNode(self, node: ListNode) -> None:
         if node.next:
-            node.val = node.next.val 
-            node.next = node.next.next 
+            node.val = node.next.val
+            node.next = node.next.next
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 head = ListNode(1)
@@ -86,6 +87,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(1)

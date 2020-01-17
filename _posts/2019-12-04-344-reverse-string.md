@@ -11,7 +11,6 @@ Do not allocate extra space for another array, you must do this by **modifying t
 
 You may assume all the characters consist of printable ascii characters.
 
-
 <!--more-->
 **Example 1**:
 > **Input**: ["h","e","l","l","o"]
@@ -24,6 +23,7 @@ You may assume all the characters consist of printable ascii characters.
 > **Output**: ["h","a","n","n","a","H"]
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -36,6 +36,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 testStr = ['a', 'b', 'c']
@@ -53,6 +54,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(1)
 
 **Time Complexity**: O(N)

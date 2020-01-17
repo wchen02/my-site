@@ -10,7 +10,7 @@ Given a binary tree, return the *postorder* traversal of its nodes' values.
 <!--more-->
 
 **Example**:
-> **Input**: 
+> **Input**:
 > [1, null, 2, 3]
 > <pre>
 > 1
@@ -20,12 +20,13 @@ Given a binary tree, return the *postorder* traversal of its nodes' values.
 > 3
 > </pre>
 >
-> **Output**: 
+> **Output**:
 > [3, 2, 1]
 
 **Follow up**: Recursive solution is trivial, could you do it iteratively?
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -52,6 +53,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 node1 = TreeNode(1)
@@ -85,6 +87,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(N)
 
 **Time Complexity**: O(N)

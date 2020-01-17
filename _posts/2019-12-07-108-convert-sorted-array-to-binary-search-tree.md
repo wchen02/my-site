@@ -27,6 +27,7 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 > </pre>
 
 ## Solution
+
 ```python
 from typing import List
 
@@ -40,7 +41,7 @@ class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         if not nums:
             return None
-        
+
         mid = int(len(nums) / 2)
         root = TreeNode(nums[mid])
         root.left = self.sortedArrayToBST(nums[:mid])
@@ -50,6 +51,7 @@ class Solution:
 ```
 
 ## Test Cases
+
 ```python
 test = Solution()
 answer = test.sortedArrayToBST([-10,-3,0,5,9])
@@ -71,6 +73,7 @@ print('All Passed!')
 ```
 
 ## Big O Analysis
+
 **Space Complexity**: O(log N)
 
 **Time Complexity**: O(N), N = number of node
