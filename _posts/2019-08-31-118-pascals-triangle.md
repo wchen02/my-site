@@ -62,4 +62,4 @@ print('All Passed!')
 ## Big O Analysis
 **Space Complexity**: O(1)
 
-**Time Complexity**: O(N^2)
+**Time Complexity**: O(N<sup>2</sup>)
