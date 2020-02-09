@@ -2,7 +2,7 @@
 layout: post
 title: 206. Reverse Linked List
 tags: [Python, LeetCode, Easy, Linked List]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Reverse a singly linked list.

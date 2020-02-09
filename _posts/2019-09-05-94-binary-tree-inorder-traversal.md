@@ -2,7 +2,7 @@
 layout: post
 title: 94. Binary Tree Inorder Traversal
 tags: [Python, LeetCode, Medium, Stack, Tree, Hash Table]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

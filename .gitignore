@@ -27,5 +27,8 @@ jekyll-theme-type-on-strap.gemspec
 *-test.md
 *copy.md
 
+.jekyll-cache/*
+test/*
+
 # Local Netlify folder
 .netlify

@@ -2,7 +2,7 @@
 layout: post
 title: 3. Longest Substring Without Repeating Characters
 tags: [Python, LeetCode, Medium, Hash Table, Two Pointers, String, Sliding Window]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a string, find the length of the **longest substring** without repeating characters.

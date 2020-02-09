@@ -2,7 +2,7 @@
 layout: post
 title: 49. Group Anagrams
 tags: [Python, LeetCode, Medium, Hash Table, String]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given an array of strings, group anagrams together.

@@ -2,7 +2,7 @@
 layout: post
 title: 28. Implement strStr()
 tags: [Python, LeetCode, Easy, String, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 22. Generate Parentheses
 tags: [Python, LeetCode, Medium, String, Backtracking]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given *n* pairs of parentheses, write a function to generate all combinations of well-formed parentheses.

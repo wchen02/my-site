@@ -2,7 +2,7 @@
 layout: post
 title: 297. Serialize and Deserialize Binary Tree
 tags: [Python, LeetCode, Hard, Tree, Design]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.

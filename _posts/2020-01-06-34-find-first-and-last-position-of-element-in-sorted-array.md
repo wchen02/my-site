@@ -2,7 +2,7 @@
 layout: post
 title: 34. Find First and Last Position of Element in Sorted Array
 tags: [Python, LeetCode, Medium, Array, Binary Search]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.

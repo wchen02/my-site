@@ -2,7 +2,7 @@
 layout: post
 title: 724. Find Pivot Index
 tags: [Python, LeetCode, Easy, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

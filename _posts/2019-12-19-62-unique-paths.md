@@ -2,7 +2,7 @@
 layout: post
 title: 62. Unique Paths
 tags: [Python, LeetCode, Medium, Array, Dynamic Programming]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 A robot is located at the top-left corner of a *m* x *n* grid (marked 'Start' in the diagram below).

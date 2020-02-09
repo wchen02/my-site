@@ -2,7 +2,7 @@
 layout: post
 title: 73. Set Matrix Zeroes
 tags: [Python, LeetCode, Medium, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a *m* x *n* matrix, if an element is 0, set its entire row and column to 0. Do it **in-place**.

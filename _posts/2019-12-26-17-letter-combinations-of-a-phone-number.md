@@ -2,7 +2,7 @@
 layout: post
 title: 17. Letter Combinations of a Phone Number
 tags: [Python, LeetCode, Medium, String, Backtracking]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent.

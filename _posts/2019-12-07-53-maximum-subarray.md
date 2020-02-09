@@ -2,7 +2,7 @@
 layout: post
 title: 53. Maximum Subarray
 tags: [Python, LeetCode, Easy, Array, Divide and Conquer, Dynamic Programming]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.

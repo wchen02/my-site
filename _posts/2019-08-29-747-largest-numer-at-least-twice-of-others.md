@@ -2,7 +2,7 @@
 layout: post
 title: 724. Largest Number At Least Twice of Others
 tags: [Python, LeetCode, Easy, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 48. Rotate Image
 tags: [Python, LeetCode, Medium, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 You are given an *n* x *n* 2D matrix representing an image.

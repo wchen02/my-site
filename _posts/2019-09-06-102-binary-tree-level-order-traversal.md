@@ -2,7 +2,7 @@
 layout: post
 title: 102. Binary Tree Level Order Traversal
 tags: [Python, LeetCode, Medium, Bread-first Search, Tree]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

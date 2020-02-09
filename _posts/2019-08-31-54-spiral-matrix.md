@@ -2,7 +2,7 @@
 layout: post
 title: 54. Spiral Matrix
 tags: [Python, LeetCode, Medium, Array]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

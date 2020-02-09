@@ -2,7 +2,7 @@
 layout: post
 title: 144. Binary Tree Preorder Traversal
 tags: [Python, LeetCode, Medium, Stack, Tree]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

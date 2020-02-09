@@ -2,7 +2,7 @@
 layout: post
 title: 56. Merge Intervals
 tags: [Python, LeetCode, Medium, Array, Sort]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a collection of intervals, merge all overlapping intervals.

@@ -2,7 +2,7 @@
 layout: post
 title: 344. Reverse String
 tags: [Python, LeetCode, Easy, Linked List]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Write a function that reverses a string. The input string is given as an array of characters `char[]`.

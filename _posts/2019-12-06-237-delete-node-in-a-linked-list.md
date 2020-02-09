@@ -2,7 +2,7 @@
 layout: post
 title: 237. Delete Node in a Linked List
 tags: [Python, LeetCode, Easy, Array, Linked List]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.

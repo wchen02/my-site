@@ -2,7 +2,7 @@
 layout: post
 title: 33. Search in Rotated Sorted Array
 tags: [Python, LeetCode, Medium, Array, Binary Search]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.

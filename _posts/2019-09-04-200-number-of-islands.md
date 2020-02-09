@@ -2,7 +2,7 @@
 layout: post
 title: 200. Number of Islands
 tags: [Python, LeetCode, Medium, Depth-first Search, Breadth-first Search, Union Find]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

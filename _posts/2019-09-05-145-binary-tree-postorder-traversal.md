@@ -2,7 +2,7 @@
 layout: post
 title: 145. Binary Tree Postorder Traversal
 tags: [Python, LeetCode, Hard, Stack, Tree]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 

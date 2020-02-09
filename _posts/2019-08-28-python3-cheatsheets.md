@@ -2,7 +2,7 @@
 layout: post
 title: Python3 Cheat Sheets
 tags: [Python, Cheat Sheet]
-author-id: wchen02
+author: wchen02
 ---
 
 <style>

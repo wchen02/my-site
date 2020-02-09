@@ -2,7 +2,7 @@
 layout: post
 title: 104. Maximum Depth of Binary Tree
 tags: [Python, LeetCode, Easy, Depth-first Search, Tree]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a binary tree, find its maximum depth.

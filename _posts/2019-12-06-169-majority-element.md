@@ -2,7 +2,7 @@
 layout: post
 title: 169. Majority Element
 tags: [Python, LeetCode, Easy, Array, Divide and Conquer, Bit Manipulation]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given an array of size *n*, find the majority element. The majority element is the element that appears **more than** `⌊ n/2 ⌋` times.

@@ -2,7 +2,7 @@
 layout: post
 title: 46. Permutations
 tags: [Python, LeetCode, Medium, Backtracking]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a collection of **distinct** integers, return all possible permutations.

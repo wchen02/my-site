@@ -6,8 +6,8 @@
   height: 100%;
   font-size: 1.2em;
   text-align: center;
-  color: $header-desc-text-color;
-  background: $header-desc-background-color no-repeat;
+  color: $header-text-color;
+  background: $header-background-color no-repeat;
   background-size: $feature-image-size;
 
   /* --- Responsive --- */
@@ -32,6 +32,7 @@
   h3,
   h4,
   h5 {
+    font-family: $font-family-logo;
     @extend .header-txt-shadow;
   }
 

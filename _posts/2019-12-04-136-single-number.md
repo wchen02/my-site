@@ -2,7 +2,7 @@
 layout: post
 title: 136. Single Number
 tags: [Python, LeetCode, Easy, Hash Table, Bit Manipulation]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a **non-empty** array of integers, every element appears twice except for one. Find that single one.

@@ -2,7 +2,7 @@
 layout: post
 title: 101. Symmetric Tree
 tags: [Python, LeetCode, Easy, Tree, Depth-first Search, Breadth-first Search]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).

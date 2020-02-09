@@ -2,7 +2,7 @@
 layout: post
 title: 236. Lowest Common Ancestor of a Binary Tree
 tags: [Python, LeetCode, Medium, Tree]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.

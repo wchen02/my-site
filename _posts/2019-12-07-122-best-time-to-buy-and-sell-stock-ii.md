@@ -2,7 +2,7 @@
 layout: post
 title: 122. Best Time to Buy and Sell Stock II
 tags: [Python, LeetCode, Easy, Array, Greedy]
-author-id: wchen02
+author: wchen02
 excerpt_separator: <!--more-->
 ---
 Say you have an array for which the *i*<sup>th</sup> element is the price of a given stock on day *i*.
