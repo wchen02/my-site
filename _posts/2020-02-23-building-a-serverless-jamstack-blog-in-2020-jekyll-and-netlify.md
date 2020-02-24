@@ -11,7 +11,7 @@ excerpt: "There are various reasons for owning a personal blog, such as, creatin
 
 There are various reasons for owning a personal blog, such as, creating a personal online brand, sharing your knowledge, refining your writing skills to name a few.
 
-Building a blog doesn't have to be difficult, you can start your personal blog in less than 30-minutes.
+Building a blog doesn't have to be difficult, you can start your blog in less than 30-minutes.
 
 In this tutorial, I'll show you how to set up a **free**, **performant** and **secured** serverless [JAMstack](https://jamstack.org/) blog with [Jekyll](https://jekyllrb.com/) and [Netlify](https://www.netlify.com/). If you already have a Jekyll site, you can skip straight to [3. Deploying to Netlify](#3-deploying-to-netlify).
 
